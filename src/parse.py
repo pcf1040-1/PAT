@@ -4,7 +4,7 @@ dict = open('data/cmudict-07b')
 word_pron = {}
 rhyme_groups = {}
 
-rhyme_requirement = 3
+rhyme_requirement = 2
 
 def read():
     lines = dict.readlines()
