@@ -1,4 +1,3 @@
-import re
 
 dict = open('data/cmudict-07b')
 word_pron = {}
@@ -54,7 +53,7 @@ def construct_rhyme_groups():
 def main():
     read()
     construct_rhyme_groups()
-    construct_file()
+    # construct_file()
 
 def get_word_pron():
     read()
